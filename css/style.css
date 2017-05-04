@@ -1,0 +1,340 @@
+/*stylesheet for the webpage*/
+
+/*background for the body*/
+body {
+	background: url(../images/head2.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+/*size of the image */
+img {
+	width: 100%;
+}
+
+/*logo alignment fixed */
+.logo {
+	float: left;
+	height: 130px;
+	border-radius: 50%;
+}
+
+/*alignment for the carousel image */
+.row3 {
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+/*background for the header part */
+.text-center {
+	background: url(../images/head2.jpg);
+	background-size: cover;
+}
+
+/*size of the nav_bar link*/
+.navbar-nav li a {
+	font-size: 20px; 
+}
+
+/*style used for title of webpage */
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	color: black;
+	font-size: 50px;
+	text-shadow: 1px 1px brown;
+}
+
+/*view button style */
+.view {
+	background-color: black;
+	font-size: 13px;
+	width: 125px;
+	height: 50px;
+	padding: 17px;
+	color: white;
+	margin-left: 520px;
+	text-decoration: none;
+}
+
+/*style for view button when hovers */
+.view:hover {
+	color: white;
+	width: 140px;
+	height: 60px;
+	padding: 20px;
+	text-decoration: none;
+}
+
+/*alignment of the paragraph tag */
+p {
+	font-size: 18px;
+	color: red;
+}
+
+/*style used for the image in carousel */
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	display: block;
+	max-width: 100%;
+	height: 400px;
+}
+
+/*design for the container */
+.container {
+	max-width: 100%;
+	height: 400px;
+}
+
+/*style for the all eight image below carousel*/
+.image {
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+	height: 150px;
+}
+/*image alignment for third row images */
+.image1 {
+	float: left;
+	width: 100%;
+	margin-top: 5px;
+	height: 300px;
+}
+
+/*style for the all images when hovers */
+.image1:hover, .image:hover {
+	border-radius: 50%;
+	border: 1px solid black;
+	padding: 5px;
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/*color and alignment for the para class */
+.para {
+	color: white;
+	text-align: center;
+}
+
+/*color and size of the font at top of image */
+#change {
+	color: cyan;
+	font-size: 18px;
+}
+
+/*background color for line*/
+.lines {
+	background-color: black;
+}
+
+/*style for the footer */
+.footer {
+	text-align: center;
+	margin-top: 50px;
+}
+
+/*background for footer */
+.foot1 {
+	background-color: black;
+}
+
+/*color for the heading for the para */
+h3 {
+	color: darkviolet;
+}
+
+/*color for the font below notification box */
+h5 {
+	color: grey;
+}
+
+/*style for the paragrapn */
+#para {
+	font-size: 18px;
+	color: black;
+}
+
+/*design for the icon setted */
+.icon {
+	color: #e600e6;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+}
+
+/*icon rotates when hovers */
+.icon:hover {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+/*color for the id-"follow" in footer */
+#follow {
+	color: red;
+}
+
+/*alignment for the eight images */
+.frame {
+	margin-bottom: 40px;
+}
+
+/*color of the h4 tag */
+h4 {
+	color: red;
+}
+
+/*style for the words below images */
+.font {
+	font-size: 15px;
+	font-family: 'Kaushan Script', cursive;
+	color: black;
+	margin-top: 30px;
+}
+
+/*font color inside the footer*/
+.foo {
+	color: white;
+}
+
+/*font color changes when hovers */
+.foo:hover {
+	text-decoration: none;
+	color: yellow;
+}
+
+/*alignment fort he google map used in footer */
+#map{
+padding-top:10px;
+text-align:left;
+font-size:10px;
+color:cyan;
+}
+
+/*alignment for the fonts in footer */
+.footcolor {
+	text-align: left;
+	color: white;
+	font-size: 12px;
+}
+
+/*text gets bold for the heading in footer */
+.bold {
+	font-size: 20px;
+	color: #99b3ff;
+}
+
+/*style for the copyright line at end of footer */
+.copy {
+	font-size: 12px;
+	font-style: italic;
+	color: lightgreen;
+}
+
+/*media queries used for all the misalignment fonts and images in the webpage */
+/*queries for the nav_bar alignment */
+@media screen and (max-width:1300px) {
+	.navbar-nav li a {
+	font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1095px) {
+	.navbar-nav li a {
+	padding-left: 5px;
+	font-size: 12px;
+    }
+}
+
+/*queries for the carousel alignment */
+@media screen and (max-width:1087px) {
+	.row3 {
+	margin-top: 210px;
+    }
+}
+
+@media screen and (max-width:765px) {
+	h1 {
+	font-size: 25px;
+    }
+	p {
+	font-size: 13px;
+	}
+	.row3 {
+	margin-top: 200px;
+	}
+}
+
+/*queries for the all teh images gets aligned */
+@media screen and (max-width:991px) {
+	.frame {
+	margin-bottom: 430px;
+	}
+	.image1 {
+	margin-top: 20px;
+	}
+}
+
+@media screen and (max-width:435px) {
+	.frame {
+	margin-bottom: 500px;
+	}
+}
+
+@media screen and (max-width:290px) {
+	.frame {
+	margin-bottom: 550px;
+	}
+}
+
+@media screen and (max-width:215px) {
+	.frame {
+	margin-bottom: 600px;
+	}
+}
+
+/*queries for view button gets centered */
+@media screen and (max-width:1200px) {
+	.view {
+	margin-left: 400px;
+	}
+}
+
+@media screen and (max-width:995px) {
+	.view {
+	margin-left: 300px;
+	}
+}
+
+@media screen and (max-width:730px) {
+	.view {
+	margin-left: 250px;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.view {
+	margin-left: 200px;
+	}
+}
+
+@media screen and (max-width:550px) {
+	.view {
+	margin-left: 150px;
+	}
+}
+
+@media screen and (max-width:400px) {
+	.view {
+	margin-left: 100px;
+	}
+}
+
+@media screen and (max-width:300px) {
+	.view {
+	margin-left: 50px;
+	}
+}
+
+/*queries for alignment of footer */
+@media screen and (max-width:991px) {
+	.footer {
+	margin-top: 450px;
+	}
+}
+/*end of the media queries */
+
+/*end of stylesheet*/

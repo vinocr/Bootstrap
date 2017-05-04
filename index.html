@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--head part  -->
+<head>
+  <!-- title for the web page  -->
+  <title>BrightSeen</title>
+  <!-- meta tag used  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--use of external links   -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Kaushan+Script" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!--script tag inserted   -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<!--end of head part  -->
+
+<!--body part   -->
+<body>
+  <!--header tag used for heading and navigation   -->
+  <header class="navbar-fixed-top header">
+    <div class="container-fluid text-center">
+      <div class="row row1">
+        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
+		  <!--logo image inserted   -->
+          <img class="logo" src="images/logo.jpg" alt="logo">
+        </div>
+        <div class="col-lg-11 col-md-10 col-sm-10 col-xs-9">
+          <h1>Bright Seen</h1>
+          <p> I opened two gifts this morning..They were my eyes..</p>
+        </div>
+      </div>
+    </div>
+
+	<!--nav_bar used  -->
+    <nav class="navbar navbar-inverse inverse">
+      <div class="container-fluid col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="navbar-header">
+		  <!--button usede for nav_bar gets hiden when minimized  -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+		<!--button gets implemented here  -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <!--unordered list used for nav_bar links and sublinks  -->
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+			<!--dropdown classes used -->
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Men<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">EyeGlasses</a></li>
+                <li><a href="#">Premium Glasses</a></li>
+                <li><a href="#">Sun Glasses</a></li>
+                <li><a href="#">Contact lens</a></li>
+                <li><a href="#">PowerGlasses</a></li>
+              </ul>
+            </li>
+			<!--dropdown classes used -->
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Women<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">EyeGlasses</a></li>
+                <li><a href="#">Premium Glasses</a></li>
+                <li><a href="#">Sun Glasses</a></li>
+                <li><a href="#">Contact lens</a></li>
+                <li><a href="#">PowerGlasses</a></li>
+              </ul>
+            </li>
+			<!--dropdown classes used -->
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Kids<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">EyeGlasses</a></li>
+                <li><a href="#">Premium Glasses</a></li>
+                <li><a href="#">Sun Glasses</a></li>
+                <li><a href="#">Contact lens</a></li>
+                <li><a href="#">PowerGlasses</a></li>
+              </ul>
+            </li>
+			<!--dropdown classes used -->
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Try@Home<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Book Home Trial</a></li>
+                <li><a href="#">Try In 3D</a></li>
+              </ul>
+            </li>
+			<!--dropdown classes used -->
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Offers<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">First Frame Free</a></li>
+                <li><a href="#">Refer and Earn</a></li>
+                <li><a href="#">Sunglasses starting at Rs.450</a></li>
+                <li><a href="#">Premium Glasses</a></li>
+                <li><a href="#">Buy 2 at 2500</a></li>
+              </ul>
+            </li>
+			<!--dropdown classes used -->
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Home-Eye-Test<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Book Eye Test</a></li>
+              </ul>
+            </li>
+          </ul>
+		  
+		  <ul class="nav navbar-nav navbar-right">
+            <li title="Cart"><a href="#"><i class="fa fa-shopping-cart" style="font-size:25px"></i></a></li>
+            <li title="Wishlist"><a href="#"><i class="fa fa-heart-o" style="font-size:25px;"></i></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+		  <!--unordered list ended -->
+        </div>
+      </div>
+    </nav>
+	<!--nav_bar ended -->
+  </header>
+  <!-- end of header tag-->
+  
+  <!-- carousel used-->
+  <div class="container row3 col-12">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner jumbotron">
+        <div class="item active">
+          <img src="images/1.jpg" alt="fullframe">
+        </div>
+
+        <div class="item">
+          <img src="images/2.jpg" alt="halfframe">
+        </div>
+
+        <div class="item">
+          <img src="images/3.jpg" alt="sunglass">
+        </div>
+
+        <div class="item">
+          <img src="images/4.jpg" alt="frameless">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+    <!--end of carousel -->
+
+  <!--images kept using grid framework -->
+  <div class="container frame">
+    <!--images in first row -->
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <img class="image" src="images/img1.jpg" alt="image1">
+        <p class="font">First Frame Free</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <img class="image" src="images/img2.jpg" alt="image2">
+        <p class="font">Starting at Rs.450</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <img class="image" src="images/img3.jpg" alt="image3">
+        <p class="font">Add Power to Sunglasses for Rs.1000</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <img class="image" src="images/img4.jpg" alt="image4">
+        <p class="font">Buy 2 - Extra 15% Off, Buy 4 - 20% Off</p>
+      </div>
+    </div>
+
+	<!--images in second row-->
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <img class="image" src="images/img5.jpg" alt="image1">
+        <p class="font">Ray-Ban Sunglasses</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <img class="image" src="images/img6.jpg" alt="image2">
+        <p class="font">For Just Rs.3000 With Lenses</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <img class="image" src="images/img7.jpg" alt="image3">
+        <p class="font">Ray-Ban Eyeglasses</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <img class="image" src="images/img8.jpg" alt="image4">
+        <p class="font">With Double Moisturizing Effect</p>
+      </div>
+    </div>
+  </div>
+  
+  <!--div used for tagging our pic -->
+  <div class="container">
+    <div class="col-12 lines row">
+      <p class="para"><span id="change">SPECSY IS THE NEW TREND :</span> Just tag your pic with <span id="change">#specsyisthenewtrend / #specsychallenge</span> on Instagram</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6"><img class="image1" src="images/sample1.jpg" alt="image1"></div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6"> <img class="image1" src="images/sample2.jpg" alt="image3"></div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6"><img class="image1" src="images/sample3.jpg" alt="image4"></div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6"><img class="image1" src="images/sample4.jpg" alt="image2"></div>
+
+    </div><br><br>
+	<!--view button -->
+    <div class="col-12 row">
+      <a class="view" href="#">VIEW MORE ></a>
+    </div>
+  </div>
+
+  <!--footer started -->
+  <div class="footer">
+    <h3><b>BUY EYEWEAR ONLINE IN INDIA - BRIGHTSEEN.COM</b></h3>
+    <p id="para">BrightSeen is India’s leading online shopping portal for eyewear. With a country-wide reach including cities such as Delhi, Mumbai, Kolkata, Chennai, Bangalore and Ahmedabad, online shopping India has been made easy with Brightseen. You can order
+      from a gamut of options ranging from eyeglasses to contact lenses to sunglasses for men and women. It provides a platform for people to spice up their life with the latest international runway trends at amazing prices. Brightseen is India’s online
+      shopping portal that gives great discounts and amazing offers on a daily basis. Guiding our customers through a hassle-free mode of purchase and payment, we provide a playful opportunity to shop online. Indulge in the addictiveness that Brightseen
+      brings to online shopping India and choose your favourite frames, sunglasses or contact lenses from the huge collection of designer eyewear and get it delivered to your house in no time. With impressive sale and reviews, this is the place for you
+      to shop online. Get addicted! When your eyewear is stylish, then why to compromise with ordinary eyewear accessories! Brightseen.com brings to you an exciting range of trendy eyeglasses accessories, sunglasses accessories and contact lens cases
+      in different hues and designs to choose from.</p>
+    <div class="container-fluid foot1">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			   <!--google map inserted -->
+			   <p id="map">Visit Google Map</p>
+			   <div>
+				   <iframe width="100%" height="200px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497699.99740305037!2d77.35073689427196!3d12.953847717752192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1493791769448"" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+				   <a href="https://www.mapsdirections.info/fr/mesurer-distance-surface-google-maps.html">www.mapsdirections.info</a></iframe>
+			   </div><br/>
+			 </div>
+		 
+		   <h4>Receive Notifications via..</h4>
+		   <!--form tag for notification box -->
+		   <form class="form-inline" action="/action_page.php">
+			 <div class="form-group">
+			   <label for="email"></label>
+			   <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+			 </div>
+			 <button type="submit" class="btn btn-default">Go..</button>
+		   </form>
+		   <h5>Join to know about more latest offers..</h5>
+		</div>
+		
+		<!--content splitted using grid framework in footer -->
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="row">
+		    <!--grid framework used -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+              <p class="footcolor">
+                <b class="bold">Stores</b><br>
+                <a class="foo" href="#">Bangalore</a><br>
+                <a class="foo" href="#">Chennai</a><br>
+                <a class="foo" href="#">Pune</a><br>
+                <a class="foo" href="#">Hyderabad</a><br>
+                <a class="foo" href="#">Mumbai</a><br>
+                <a class="foo" href="#">Delhi</a><br>
+                <a class="foo" href="#">Trivandrum</a><br>
+                <a class="foo" href="#">50+ other cities</a><br>
+                <a class="foo" href="#">Become a Business partner</a><br>
+              </p>
+            </div>
+			
+             <!--grid framework used -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+              <p class="footcolor">
+                <b class="bold">About Us..</b><br>
+				Address: Bright Seen<br>
+				72,Electronic City<br>
+				Bangalore.<br>
+				Ph : 983463412<br>
+				Mail : <a class="foo" href="#">brightseen@gmail.com</a><br>
+				Visit: <a class="foo" href="#">https://brightseen.com</a>
+              </p>
+            </div>
+
+			 <!--grid framework used -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+              <p class="footcolor">
+                <b class="bold">More</b><br>
+                <a class="foo" href="#">Download App</a><br>
+                <a class="foo" href="#">Refer & Earn</a><br>
+                <a class="foo" href="#">Blog</a><br>
+                <a class="foo" href="#">We are Hiring</a><br>
+                <a class="foo" href="#">Customer Support</a><br>
+                <a class="foo" href="#">T&Cp</a><br>
+                <a class="foo" href="#">Bulk Order</a><br>
+                <a class="foo" href="#">Delivery Time</a><br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+	  <div class="row">
+	  
+		 </div>
+      <p class="font" id="follow">Follow Us..</p>
+      <a href="#"><i class="fa fa-twitter icon" style="font-size:25px;"></i></a>
+      <a href="#"><i class="fa fa-facebook icon" style="font-size:25px;"></i></a>
+      <a href="#"><i class="fa fa-skype icon" style="font-size:25px;"></i></a>
+      <a href="#"><i class="fa fa-google-plus icon" style="font-size:25px;"></i></a>
+      <a href="#"><i class="fa fa-telegram icon" style="font-size:25px;"></i></a>
+      <p class="copy">&copy 2012..All Rights Reserved</p>
+    </div>
+  </div>
+  <!--end of footer tag-->
+</body>
+<!-- end of body tag-->
+
+</html>
